@@ -1,0 +1,21 @@
+<System Programming - Project 2>
+
+1. 프로젝트 목표
+
+Project1에서 구현했던 프로그램에 assemble, type, symbol 명령어 기능을 추가하여 SIC/XE 머신을 구현하고자 한다.
+Assemble filename 명령어를 통해 .asm 파일을 입력받아 .obj 파일과 .lst 파일을 생성하고, 
+이 과정에서 생긴 symbol table을 symbol 명령어를 통해 확인하도록 구현한다.
+Type 명령어를 통해 파일의 내용을 확인할 수 있도록 프로그램을 구현한다.
+
+
+2. 작업 환경 : Linux
+
+3. 컴파일 및 실행 방법
+
+(1) 동일한 directory에 20171609.c, 20171609.h, opcode.txt, Makefile, 2_5.asm을 위치시킨다.
+(2) make를 입력하여 20171609.o, 20171609.out 파일을 생성한다.
+(3) 명령프롬프트 창에 ./20171609.out 을 통해 프로그램을 실행시킨다.
+
+4. 컴파일 된 파일 삭제 방법
+
+(1) make clean을 입력하여 20171609.o, 20171609.out 파일을 삭제할 수 있다.

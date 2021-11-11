@@ -1,0 +1,23 @@
+<System Programming - Project 3>
+
+20171609 김민식
+
+1. 프로젝트 목표
+
+Project3는 project 2에서 구현한 shell에 linking과 loader 기능을 추가하는 프로그램이다. 
+‘loader’ 명령어로 Linking, loader 기능이 실행되며 ‘run’ 명령어로 Linking 및 loading된 프로그램을 실행한다.
+‘bp’ 명령어로 breakpoint를 만들어 디버깅 기능을 제공한다. Bp를 통해 프로그램을 멈출 때 마다  A, X, L, PC, B, S, T 각 레지스터에 들어가 있는 값을 출력한다. 
+
+
+2. 작업 환경 : Linux
+
+3. 컴파일 및 실행 방법
+
+(1) 동일한 directory에 20171609.c, 20171609.h, Makefile, opcode.txt, 그리고 각 object 파일들을 위치시킨다.
+(2) make를 입력하여 20171609.o, 20171609.out 파일을 생성한다.
+(3) 명령프롬프트 창에 ./20171609.out 을 통해 프로그램을 실행시킨다.
+
+4. 컴파일 된 파일 삭제 방법
+
+(1) make clean을 입력하여 20171609.o, 20171609.out 파일을 삭제할 수 있다.
+

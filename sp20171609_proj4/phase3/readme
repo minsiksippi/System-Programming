@@ -1,0 +1,31 @@
+<System Programming - Project 4>
+
+20171609 김민식
+
+1. 프로젝트 목표 
+
+Linux shell은 kernel과 사용자간의 다리역할을 하여 사용자로부터 명령을 받아 해석하고, 하드웨어를 위한 지시어로 바꾸어 프로그램을 실행하는 역할을 한다. 
+Project4에서는 이러한 Linux shell을 구현한다.
+
+Phase 1 : linux shell의 기본 internal shell command를 구현한다.
+이용 가능 명령어 : cd (name), cd .., mkdir, rmdir, cat, echo, touch, exit 
+
+Phase 2 : pipe 기능을 추가하여 여러 명령어끼리 연결해주어 앞에서 실행한 명령의 결과를 파이프 뒤의 명령어의 입력으로 사용되도록 구현한다.
+
+Phase 3 : background에서 프로세스를 실행할 수 있도록 구현하며, 명령어를 통해 백그라운드와 포그라운드 간의 이동이 가능하고, 프로세스를 중지시킬 수 있도록 linux shell 을 구현한다.
+이용 가능 명령어 : jobs, bg, fg, kill
+
+
+
+2. 작업 환경 : Linux
+
+3. 컴파일 및 실행 방법
+
+(1) 동일한 directory에 Makefile, myshell.c, my shell.h 를 위치시킨다.
+(2) make를 입력하여 실행파일 myshell을 생성한다
+(3) 명령프롬프트 창에 ./myshell 을 통해 프로그램을 실행시킨다.
+
+4. 컴파일 된 파일 삭제 방법
+
+(1) make clean을 입력하여 myshell을 삭제할 수 있다.
+
